@@ -65,7 +65,7 @@
  
 <br>
  
-## 데모 영상
+## 발표 영상
  
 YouTube: https://youtu.be/w6MUVZBxkW0
 
