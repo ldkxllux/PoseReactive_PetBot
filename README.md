@@ -73,4 +73,4 @@ YouTube: *(추후 첨부 예정)*
  
 ## GitHub 저장소
  
-*(추후 첨부 예정)*
+GitHub: https://github.com/ldkxllux/PoseReactive_PetBot
