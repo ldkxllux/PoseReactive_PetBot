@@ -1,0 +1,49 @@
+[0.388s] Invoking command in '/home/user/PoseReactive_PetBot/src/pose_reactive_robot': PYTHONPATH=/home/user/PoseReactive_PetBot/build/pose_reactive_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_reactive_robot build --build-base /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build install --record /home/user/PoseReactive_PetBot/build/pose_reactive_robot/install.log --single-version-externally-managed install_data
+[0.533s] running egg_info
+[0.533s] creating ../../build/pose_reactive_robot/pose_reactive_robot.egg-info
+[0.534s] writing ../../build/pose_reactive_robot/pose_reactive_robot.egg-info/PKG-INFO
+[0.534s] writing dependency_links to ../../build/pose_reactive_robot/pose_reactive_robot.egg-info/dependency_links.txt
+[0.534s] writing entry points to ../../build/pose_reactive_robot/pose_reactive_robot.egg-info/entry_points.txt
+[0.534s] writing requirements to ../../build/pose_reactive_robot/pose_reactive_robot.egg-info/requires.txt
+[0.534s] writing top-level names to ../../build/pose_reactive_robot/pose_reactive_robot.egg-info/top_level.txt
+[0.534s] writing manifest file '../../build/pose_reactive_robot/pose_reactive_robot.egg-info/SOURCES.txt'
+[0.535s] reading manifest file '../../build/pose_reactive_robot/pose_reactive_robot.egg-info/SOURCES.txt'
+[0.535s] writing manifest file '../../build/pose_reactive_robot/pose_reactive_robot.egg-info/SOURCES.txt'
+[0.536s] running build
+[0.536s] running build_py
+[0.536s] creating /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build
+[0.536s] creating /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib
+[0.537s] creating /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot
+[0.537s] copying pose_reactive_robot/__init__.py -> /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot
+[0.537s] copying pose_reactive_robot/robot_controller_node.py -> /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot
+[0.537s] copying pose_reactive_robot/pet_state_classifier_node.py -> /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot
+[0.537s] copying pose_reactive_robot/video_publisher_node.py -> /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot
+[0.537s] copying pose_reactive_robot/pose_detector_node.py -> /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot
+[0.537s] running install
+[0.537s] running install_lib
+[0.538s] creating /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot
+[0.538s] copying /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot/__init__.py -> /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot
+[0.538s] copying /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot/robot_controller_node.py -> /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot
+[0.538s] copying /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot/pet_state_classifier_node.py -> /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot
+[0.538s] copying /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot/video_publisher_node.py -> /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot
+[0.538s] copying /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build/lib/pose_reactive_robot/pose_detector_node.py -> /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot
+[0.538s] byte-compiling /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot/__init__.py to __init__.cpython-310.pyc
+[0.539s] byte-compiling /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot/robot_controller_node.py to robot_controller_node.cpython-310.pyc
+[0.539s] byte-compiling /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot/pet_state_classifier_node.py to pet_state_classifier_node.cpython-310.pyc
+[0.540s] byte-compiling /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot/video_publisher_node.py to video_publisher_node.cpython-310.pyc
+[0.540s] byte-compiling /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot/pose_detector_node.py to pose_detector_node.cpython-310.pyc
+[0.541s] running install_data
+[0.541s] creating /home/user/PoseReactive_PetBot/install/pose_reactive_robot/share/ament_index
+[0.541s] creating /home/user/PoseReactive_PetBot/install/pose_reactive_robot/share/ament_index/resource_index
+[0.541s] creating /home/user/PoseReactive_PetBot/install/pose_reactive_robot/share/ament_index/resource_index/packages
+[0.541s] copying resource/pose_reactive_robot -> /home/user/PoseReactive_PetBot/install/pose_reactive_robot/share/ament_index/resource_index/packages
+[0.541s] copying package.xml -> /home/user/PoseReactive_PetBot/install/pose_reactive_robot/share/pose_reactive_robot
+[0.541s] running install_egg_info
+[0.543s] Copying ../../build/pose_reactive_robot/pose_reactive_robot.egg-info to /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages/pose_reactive_robot-0.0.0-py3.10.egg-info
+[0.543s] running install_scripts
+[0.557s] Installing pet_state_classifier_node script to /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/pose_reactive_robot
+[0.557s] Installing pose_detector_node script to /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/pose_reactive_robot
+[0.557s] Installing robot_controller_node script to /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/pose_reactive_robot
+[0.557s] Installing video_publisher_node script to /home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/pose_reactive_robot
+[0.557s] writing list of installed files to '/home/user/PoseReactive_PetBot/build/pose_reactive_robot/install.log'
+[0.574s] Invoked command in '/home/user/PoseReactive_PetBot/src/pose_reactive_robot' returned '0': PYTHONPATH=/home/user/PoseReactive_PetBot/build/pose_reactive_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PoseReactive_PetBot/install/pose_reactive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_reactive_robot build --build-base /home/user/PoseReactive_PetBot/build/pose_reactive_robot/build install --record /home/user/PoseReactive_PetBot/build/pose_reactive_robot/install.log --single-version-externally-managed install_data

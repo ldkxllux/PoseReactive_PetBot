@@ -1,0 +1,6 @@
+[console_scripts]
+pet_state_classifier_node = pose_reactive_robot.pet_state_classifier_node:main
+pose_detector_node = pose_reactive_robot.pose_detector_node:main
+robot_controller_node = pose_reactive_robot.robot_controller_node:main
+video_publisher_node = pose_reactive_robot.video_publisher_node:main
+
